@@ -4,6 +4,8 @@
 #include <string>
 using namespace std;
 
+// This code was mainly to test the level code but then i went and had a bit of fun with it
+
 bool tryParse(std::string& input, int& output) {
 	try {
 		output = stoi(input);
